@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>TEST</title>
+		<script src="src/slider.js"></script>
+		<script type="text/javascript">
+			test = new  slider();
+			test.id( 0 , "set" , "height" , 150 );
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

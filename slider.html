@@ -23,9 +23,22 @@ div {
 
 <script>
 $(document).ready(function(){
+	test = new slider;
+
 	$("#btn1").click(function(){
-		test = new slider;
-		test.init();		
+		test.init();
+	})
+
+	$("#btn2").click(function(){
+		test.start();
+	})
+
+	$("#btn3").click(function(){
+		test.move_left();
+	})
+
+	$("#btn4").click(function(){
+		test.move_right();
 	})
 
 	$("#slider > img").click(function(){
@@ -37,6 +50,9 @@ $(document).ready(function(){
 </head>
 <body>
 <button id="btn1">bnt1</button>
+<button id="btn2">bnt2</button>
+<button id="btn3">Сдвинуть влево</button>
+<button id="btn4">Сдвинуть вправо</button>
 <hr>
 <div id="slider">
 	<img src="img/3.png" />
